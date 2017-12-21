@@ -1,0 +1,168 @@
+img {
+  height: 50vh;
+  width: 100%;
+}
+.presentation {
+  display: flex;
+  font-family: robo;
+  box-shadow: 0px -20px 20px #000;
+}
+
+
+.photoTexte > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+  background-color: #F9F9F9;
+  top: -80px;
+
+}
+
+.test3 {
+  margin-left: 0px;
+}
+
+.photoTexte {
+  padding: 9px 9px 10px 20px;
+}
+
+
+header,p,h3 {
+  margin: 0px;
+}
+
+.test1 {
+  padding: 20px;
+}
+
+.test2 {
+  margin-left: 10vh;
+  padding top: : 0px;
+  margin: 0 10em;
+  margin-left: 190px;
+}
+
+.test2 p
+{
+  margin-top:9px;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 90%;
+}
+
+.test5 p {
+
+  font-family: Roboto;
+  font-size: 80%;
+}
+
+body {
+  margin: 0;
+  background-color: #F9F9F9
+}
+
+.test6{
+  background-color: #b7c7c9;
+  height: 70px;
+  margin-top: 20px;
+  border-width:2px;
+}
+
+.test6 > p {
+  text-align: center;
+
+}
+
+/* tout sauf le premier enfant */
+.test6 > *:not(first-child) {
+  font-size: 20px;
+}
+
+/* le premier enfant */
+.test6 > *:first-child {
+  font-size: 25px;
+}
+
+.test7 {
+  margin-top: 20px;
+
+}
+
+.test8 {
+  margin-top: 9px;
+  text-align: justify;
+  width: 40vw;
+  display: block;
+  padding: 7px;
+
+}
+
+.test8 P {
+  margin-top: 30px;
+  width: 100%;
+}
+
+.test9 {
+  display:inline;
+  text-decoration: underline;
+}
+.test10 {
+  padding-top:20px;
+  }
+}
+
+.quality  {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+}
+
+ul{
+  padding-top: 20px;
+}
+
+.quality > ul > li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 5px 0px 15px;
+}
+
+.quality > ul > li:not(:first-child) {
+  border-left: 1px solid black;
+
+}
+
+.the {
+  padding: 50px;
+
+}
+
+.the1 {
+
+  display: block;
+  padding: 50px;
+  border-right: solid;
+}
+.the5{
+
+  display: block;
+  padding: 50px;
+
+}
+
+.the3 {
+
+  display: flex;
+  border: solid;
+  padding: 20px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.the4 {
+  display: block;
+  padding: 50px;
+}
