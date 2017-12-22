@@ -93,7 +93,6 @@ body {
 .test8 {
   margin-top: 9px;
   text-align: justify;
-  width: 40vw;
   display: block;
   padding: 7px;
 
@@ -146,11 +145,13 @@ ul{
   display: block;
   padding: 50px;
   border-right: solid;
+  width: 40%;
 }
 .the5{
 
   display: block;
   padding: 50px;
+  width: 40%;
 
 }
 
@@ -160,6 +161,8 @@ ul{
   border: solid;
   padding: 20px;
   border-radius: 20px 20px 20px 20px;
+  width: 80%;
+  margin-left: 100px;
 }
 
 .the4 {
