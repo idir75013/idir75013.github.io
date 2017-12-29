@@ -109,7 +109,7 @@ body {
 
 .test10 {
   padding-top:20px;
-  }
+}
 
 
 .quality  {
@@ -173,4 +173,41 @@ body {
 .the4 {
   display: block;
   padding: 50px;
+}
+.voyage > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+}
+
+.internet > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+}
+
+.sport > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+}
+
+.tv > img {
+
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+}
+
+.fin {
+  display: flex;
+  justify-content: space-between;
 }
