@@ -140,6 +140,11 @@ ul{
 
 }
 
+.bordur{
+  border: 10px double;
+
+}
+
 .the1 {
 
   display: block;
@@ -156,7 +161,7 @@ ul{
 }
 
 .the3 {
-
+  margin-top: 30px;
   display: flex;
   border: solid;
   padding: 20px;
