@@ -119,6 +119,9 @@ body {
 
 
 }
+.quality > ul {
+  padding: 0px 9px
+}
 
 .quality > ul > li {
   display: inline-block;
