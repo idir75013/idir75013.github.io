@@ -1,6 +1,238 @@
-@media screen and (max-width:40px) {
-  body {
-    display: block;
-    clear: both;
-  }
+img {
+  height: 50vh;
+  width: 100%;
+}
+.presentation {
+  display: flex;
+  font-family: robo;
+  box-shadow: 0px -20px 20px #000;
+}
+
+
+.photoTexte > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+  background-color: #F9F9F9;
+  top: -80px;
+
+}
+
+.photoTexte {
+  padding: 9px 9px 10px 20px;
+}
+
+
+header,p,h3 {
+  margin: 0px;
+  font-family: arial;
+}
+
+.test1 {
+  padding: 20px;
+  font-family: arial;
+  font-size: 18px;
+}
+.test1 h3 {
+  font-family: arial;
+}
+
+.test2 {
+
+  font-family: arial;
+  margin-top: -20px;
+  margin-right: 100px;
+  margin-left: 190px;
+}
+
+.test2 p
+{
+  margin-top:9px;
+  text-align: justify;
+  font-family: Roboto;
+  font-size: 90%;
+}
+
+.test5 p {
+  font-family: Roboto;
+  font-size: 80%;
+}
+
+body {
+  margin: 0;
+  background-color: #F9F9F9
+}
+
+.test6{
+  background-color: #b7c7c9;
+  height: 70px;
+  margin-top: 20px;
+  border-width:2px;
+}
+
+.test6 > p {
+  text-align: center;
+
+}
+
+/* tout sauf le premier enfant */
+.test6 > *:not(first-child) {
+  font-size: 20px;
+}
+
+/* le premier enfant */
+.test6 > *:first-child {
+  font-size: 25px;
+}
+.test7 h2 {
+  text-decoration: underline;
+font-family: Georgia;
+color: #0072bc
+}
+
+.test7 {
+  margin-top: 20px;
+
+}
+
+.test8 {
+  margin-top: 9px;
+  text-align: justify;
+  display: block;
+  padding: 7px;
+  font-family: arial;
+  color: #6a7375;
+
+}
+
+.test8 P {
+  margin-top: 30px;
+  width: 100%;
+  font-family: arial;
+  color: #03A032;
+}
+
+.test9 {
+  display:inline;
+  text-decoration: underline;
+  color: #ff3a7a;
+  font-family: Courier New;
+}
+
+.test10 {
+  padding-top:20px;
+}
+
+.test11 h2 {
+  text-decoration: underline;
+  font-family: Georgia;
+  color: #edb500
+}
+
+.test15 h2 {
+  text-decoration: underline;
+  font-family: Georgia;
+  color: #edb500
+}
+
+.quality  {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+
+
+}
+.quality > ul {
+  padding: 0px 9px
+}
+
+.quality > ul > li {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 5px 0px 15px;
+}
+
+.quality > ul > li:not(:first-child) {
+  border-left: 1px solid black;
+
+}
+
+.the {
+  padding: 50px;
+
+}
+
+.bordur{
+  border: 10px double;
+
+}
+
+.the1 {
+
+  display: block;
+  padding: 50px;
+  border-right: solid;
+  width: 40%;
+}
+
+.the5{
+
+  display: block;
+  padding: 50px;
+  width: 40%;
+}
+
+.the3 {
+  margin-top: 30px;
+  display: flex;
+  border: solid;
+  padding: 20px;
+  border-radius: 20px 20px 20px 20px;
+  width: 80%;
+  margin-left: 100px;
+  box-shadow: 6px 6px 6px 3px black;
+}
+
+.the4 {
+  display: block;
+  padding: 50px;
+}
+.voyage > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+}
+
+.internet > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+}
+
+.sport > img {
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+}
+
+.tv > img {
+
+  height: 130px;
+  width: 130px;
+  border-radius: 150px;
+  padding: 5px;
+  position: relative;
+}
+
+.fin {
+  display: flex;
+  justify-content: space-between;
 }
