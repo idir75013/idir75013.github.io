@@ -1,6 +1,4 @@
-@media screen and (max-width:40px) {
-  body {
-    display: block;
-    clear: both;
-  }
+body {
+  color: red;
+
 }
