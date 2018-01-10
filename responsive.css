@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 img {
   height: 50vh;
   width: 100%;
@@ -235,4 +236,9 @@ color: #0072bc
 .fin {
   display: flex;
   justify-content: space-between;
+=======
+body {
+  color: red;
+
+>>>>>>> 3a6575d0c7d180eaac9168b48255bb8f79eb06c1
 }
