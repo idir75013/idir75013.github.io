@@ -11,7 +11,7 @@
   text-align: center;
   width: 180px;
   position: fixed;
-  }
+}
 
 #menu-accordeon li {
   background-color:#729EBF;
@@ -22,7 +22,7 @@
   box-shadow: 3px 3px 3px #999;
   border:solid 1px #333A40
   transition: all .5s;
-  }
+}
 #menu-accordeon a {
   display:block;
   text-decoration: none;
@@ -125,8 +125,8 @@ body {
 }
 .test7 h2 {
   text-decoration: underline;
-font-family: Georgia;
-color: #0072bc
+  font-family: Georgia;
+  color: #0072bc
 }
 
 .test7 {
