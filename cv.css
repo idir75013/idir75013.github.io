@@ -1,14 +1,51 @@
-img {
-  height: 50vh;
-  width: 100%;
+/*le menu*/
+.m {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
 }
+#menu-accordeon {
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 180px;
+  position: fixed;
+  }
+
+#menu-accordeon li {
+  background-color:#729EBF;
+  background-image:-webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
+  background-image: linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+  border-radius: 6px;
+  margin-bottom:2px;
+  box-shadow: 3px 3px 3px #999;
+  border:solid 1px #333A40
+  transition: all .5s;
+  }
+#menu-accordeon a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+
+/*image principal*/
+img {
+  height: 80vh;
+  width: 100%;
+  margin-top: -50px;
+}
+/*photo*/
 .presentation {
   display: flex;
   font-family: robo;
   box-shadow: 0px -20px 20px #000;
 }
 
-
+/*ma photo*/
 .photoTexte > img {
   height: 130px;
   width: 130px;
@@ -16,7 +53,7 @@ img {
   padding: 5px;
   position: relative;
   background-color: #F9F9F9;
-  top: -80px;
+  top: -30px;
 
 }
 
@@ -195,10 +232,13 @@ color: #0072bc
   box-shadow: 6px 6px 6px 3px black;
 }
 
+/*section loitsir*/
 .the4 {
   display: block;
   padding: 50px;
 }
+
+/*div internet*/
 .voyage > img {
   height: 130px;
   width: 130px;
@@ -207,6 +247,7 @@ color: #0072bc
   position: relative;
 }
 
+/*div internet*/
 .internet > img {
   height: 130px;
   width: 130px;
@@ -215,6 +256,7 @@ color: #0072bc
   position: relative;
 }
 
+/*div sport*/
 .sport > img {
   height: 130px;
   width: 130px;
@@ -223,6 +265,7 @@ color: #0072bc
   position: relative;
 }
 
+/*div tv*/
 .tv > img {
 
   height: 130px;
@@ -232,7 +275,15 @@ color: #0072bc
   position: relative;
 }
 
+/*div loisir*/
 .fin {
   display: flex;
   justify-content: space-between;
+  margin-top: 110px;
+}
+
+.rim {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
